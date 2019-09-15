@@ -11,7 +11,7 @@ public class Cliente{
             InetAddress srv = InetAddress.getByName(host);
             Socket cl = new Socket(srv, pto);
             System.out.println("Conexion establecida...");
-//////////////usuario y contraseña///////////////////////////////////////////7
+//////////////usuario y contraseña///////////////////////////////////////////
             BufferedReader br1 = new BufferedReader(new InputStreamReader(System.in));
             System.out.println("Escriba el nombre del usuario:");
             String nameuser = br1.readLine();
